@@ -1,3 +1,19 @@
-![alt text]( file:///C:/Users/ADVAN/OneDrive/Pictures/Screenshot/img-db.database.png?raw=true)
+Database Web galery Foto:
 
-Data base Web Galeri Foto
+Table user:                                            
+userID -> int,
+username -> varchar,
+password -> varchar,
+email -> varchar,
+nama_lengkap -> varchar,
+alamat -> text,
+
+Table foto:
+
+fotoID -> int,
+judul_foto -> varchar,
+deskripsi_foto -> text,
+tanggal_unggah -> date,
+lokasi_file -> varchar,
+albumID -> int,
+userID int,
